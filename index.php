@@ -36,6 +36,13 @@
         Inscription();
         exit;
       }
+      if ($_GET['action'] == 'Déconnexion') {
+        session_start ();
+        session_unset ();
+        session_destroy ();
+        Accueil();
+        exit;
+      }
 
    }
    else{
