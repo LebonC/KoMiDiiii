@@ -16,6 +16,7 @@ function Accueil() {
         'Admin' => 'index.php?action=Admin',
         'Connexion' => 'index.php?action=Connexion',
         'Inscription' => 'index.php?action=Inscription',
+        'Se déconnecter' => 'index.php?action=Déconnexion',
 
     );
 
@@ -45,6 +46,7 @@ function Noter() {
         'Admin' => 'index.php?action=Admin',
         'Connexion' => 'index.php?action=Connexion',
         'Inscription' => 'index.php?action=Inscription',
+        'Se déconnecter' => 'index.php?action=Déconnexion',
 
     );
 
@@ -74,6 +76,7 @@ function Admin() {
         'Admin' => 'index.php?action=Admin',
         'Connexion' => 'index.php?action=Connexion',
         'Inscription' => 'index.php?action=Inscription',
+        'Se déconnecter' => 'index.php?action=Déconnexion',
 
     );
 
@@ -102,7 +105,7 @@ function Connexion() {
         'Admin' => 'index.php?action=Admin',
         'Connexion' => 'index.php?action=Connexion',
         'Inscription' => 'index.php?action=Inscription',
-
+        'Se déconnecter' => 'index.php?action=Déconnexion',
     );
 
     $titrepage = "Bienvenue sur KomidiScope !";
@@ -130,6 +133,7 @@ function ValidationConnexion() {
         'Admin' => 'index.php?action=Admin',
         'Connexion' => 'index.php?action=Connexion',
         'Inscription' => 'index.php?action=Inscription',
+        'Se déconnecter' => 'index.php?action=Déconnexion',
 
     );
 
@@ -184,6 +188,7 @@ function Inscription() {
         'Admin' => 'index.php?action=Admin',
         'Connexion' => 'index.php?action=Connexion',
         'Inscription' => 'index.php?action=Inscription',
+        'Se déconnecter' => 'index.php?action=Déconnexion',
 
     );
 
@@ -199,6 +204,7 @@ function Inscription() {
     $tailleresume = 255;
 	require './vue/vueInscription.php';
 }
+
 
 ?>
 
