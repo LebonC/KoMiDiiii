@@ -63,6 +63,7 @@ class user
 				session_start();
 				$_SESSION['nom'] = $result['NomUtilisateur'];
 				$_SESSION['prenom'] = $result['PrenomUtilisateur'];
+				$_SESSION['type'] = $result['StatutUtilisateur'];
 				return true;
 			}
 		}
